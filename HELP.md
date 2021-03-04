@@ -32,3 +32,8 @@ restart: always
   
 RUN :
   sudo aa-remove-unknown
+
+
+# phpadmin admin : admin
+
+http://localhost:8080/person?id=1
